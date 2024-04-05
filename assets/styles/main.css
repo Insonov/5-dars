@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 31px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-right button {
+    padding: 12px 24px;
+    color: #fff;
+    background: #000;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+
+.showcase {
+    display: flex;
+    align-items: center;
+
+}
+
+.showcase>div {
+    flex: 1;
+}
+
+.showcase iframe {
+    width: 100%;
+}
+
+.showcase h1 {
+    font-size: 56px;
+}
+
+.showcase p {
+    max-width: 537px;
+    color: rgba(99, 111, 135, 1);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 20px 0 40px;
+}
+
+.showcase button {
+    padding: 20px 40px;
+    background: rgba(26, 171, 123, 1);
+    border-radius: 6px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 700;
+}
+
+.help {
+    margin-top: 110px;
+    padding: 50px 0;
+    background: rgba(242, 244, 246, 1);
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    row-gap: 32px;
+}
+
+.card {
+    width: 32%;
+    padding: 30px 40px;
+    border: 2px solid rgba(225, 231, 237, 1);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    min-height: 358px;
+    transition: 0.5s ease-in-out;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-header h3 {
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(99, 111, 135, 1);
+}
+
+.card a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.card:hover {
+    background: rgba(26, 171, 123, 1);
+    color: #fff;
+}
+
+.card:hover p {
+    color: #fff;
+}
+
+.card:hover a {
+    text-decoration: underline;
+}
+
+.form{
+    padding: 111px 0 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.form-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-header h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 411px;
+}
+
+.form-header p{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(99, 111, 135, 1);
+    margin-top: 16px;
+}
+
+.form-wrapper{
+    width: 100%;
+    padding: 45px 0 36px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 515px;
+    margin-top: 60px;
+    background: url(../images/image\ 1.png);
+}
+
+form{
+    background: #101010b2;
+    width: 50%;
+    padding: 37px 29px 58px 72px;
+    height: 100%;
+    flex-direction: column;
+    gap: 51px;
+    color: #fff;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group input{
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 3px solid rgba(66, 66, 66, 0.73);
+    margin-top: 21px;
+}
+
+.input-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-button button{
+    padding: 20px 88px;
+    background-color: rgba(26, 171, 123, 1);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-weight: 700;
+    gap: 10px;
+    row-gap: 10px;
+}
+
+.ft{
+    background-color: rgba(16, 16, 16, 1);
+    width: 1440px;
+    height: 278px;
+    top: 2596px;
+    display: flex;
+}
+
+.logo{
+    color: rgba(161, 168, 183, 1);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    margin: 96px 475px 154px 112px;
+}
+
+.resource{
+    margin: 96px 277px 102px 0;
+}
+
+.resource h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.2px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.resource p{
+    color: rgba(161, 168, 183, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.connect{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.2px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.connect img{
+    width: 24px;
+    height: 24px;
+}
+
+.connect{
+    margin: 100px 235px 96px 0;
+}
